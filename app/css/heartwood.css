@@ -100,6 +100,10 @@ ul.nav-tabs.affix {
 
 }
 
+.artists {
+    margin-bottom: 10px;
+}
+
 .darkrow, .lightrow {
     padding-bottom: 20px;
 }
@@ -107,10 +111,6 @@ ul.nav-tabs.affix {
 img {
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-span {
-    margin: 0 0 10px;
 }
 
 body {

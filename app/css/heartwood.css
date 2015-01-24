@@ -73,8 +73,17 @@ ul.nav-tabs.affix {
 }
 
 .greenrow {
-    background: #3c763d;
+    height: 80px;
+  background : -moz-linear-gradient(50% 0.22% -90deg,rgba(0, 93, 55, 1) 0%,rgba(0, 71, 32, 1) 35.79%,rgba(0, 57, 18, 1) 70.67%,rgba(0, 52, 13, 1) 100%);
+  background : -webkit-linear-gradient(-90deg, rgba(0, 93, 55, 1) 0%, rgba(0, 71, 32, 1) 35.79%, rgba(0, 57, 18, 1) 70.67%, rgba(0, 52, 13, 1) 100%);
+  background : -webkit-gradient(linear,50% 0.22% ,50% 99.76% ,color-stop(0,rgba(0, 93, 55, 1) ),color-stop(0.3579,rgba(0, 71, 32, 1) ),color-stop(0.7067,rgba(0, 57, 18, 1) ),color-stop(1,rgba(0, 52, 13, 1) ));
+  background : -o-linear-gradient(-90deg, rgba(0, 93, 55, 1) 0%, rgba(0, 71, 32, 1) 35.79%, rgba(0, 57, 18, 1) 70.67%, rgba(0, 52, 13, 1) 100%);
+  background : -ms-linear-gradient(-90deg, rgba(0, 93, 55, 1) 0%, rgba(0, 71, 32, 1) 35.79%, rgba(0, 57, 18, 1) 70.67%, rgba(0, 52, 13, 1) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#005D37', endColorstr='#00340D' ,GradientType=0)";
+  background : linear-gradient(180deg, rgba(0, 93, 55, 1) 0%, rgba(0, 71, 32, 1) 35.79%, rgba(0, 57, 18, 1) 70.67%, rgba(0, 52, 13, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#005D37',endColorstr='#00340D' , GradientType=0);
 }
+
 
 .centered {
     text-align: center;
@@ -84,6 +93,16 @@ ul.nav-tabs.affix {
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
+
+.darkrow span, .darkrow p {
+    color:#ffffff;
+
+}
+
+.darkrow, .lightrow, img {
+    margin-bottom: 20px;
+}
+
 
 body {
     overflow-x: hidden;

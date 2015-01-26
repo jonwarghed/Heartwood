@@ -19,50 +19,21 @@ ul.nav-tabs li a {
     padding-left: 16px;
     padding-bottom: 18px;
     border-radius: 0;
-    background: darkorange;
-    color: grey;
+    background: #E77A12;
+    color: #fff;
 }
 
 ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover {
     color: #fff;
-    background: orange;
+    background: #FF9F50;
     border: 0 !important;
 }
 
-.arrow_box {
-    position: relative;
-    background: #f57e07;
-    border: 5px solid #f57e07;
-}
-
-.arrow_box:after, .arrow_box:before {
-    left: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-}
-
-.arrow_box:after {
-    border-color: rgba(245, 126, 7, 0);
-    border-left-color: #f57e07;
-    border-width: 30px;
-    margin-top: -30px;
-}
-
-.arrow_box:before {
-    border-color: rgba(245, 126, 7, 0);
-    border-left-color: #f57e07;
-    border-width: 37px;
-    margin-top: -37px;
-}
 
 ul.nav-tabs.affix {
     top: 40px; /* Set the top position of pinned element */
 }
+
 
 .darkrow {
     background: #222222;
@@ -100,12 +71,40 @@ ul.nav-tabs.affix {
 
 }
 
+.lightrow span {
+    color:#2B2B2B;
+}
+
 .artists {
     margin-bottom: 10px;
 }
 
 .darkrow, .lightrow {
     padding-bottom: 20px;
+}
+
+.darkrow span.dot {
+    color: #F3A500;
+}
+
+.darkrow span.timer {
+    font-size: 50px;
+}
+
+.darkrow span.date {
+    font-size: 35px;
+    color: #F3A500;
+    font-family: futura-condensedmedium;
+}
+
+.darkrow {
+    background-color: #2B2B2B;
+    text-align: justify;
+}
+
+.darkrow span.artists{
+        font-family: futura-condensedmedium;
+        font-size: 20px;
 }
 
 img {
@@ -115,9 +114,25 @@ img {
 
 body {
     overflow-x: hidden;
+    font-family: helveticaneue;
 }
 
 p {
     text-align: justify;
     text-justify: inter-word;
+}
+
+.darkrow h1 {
+    font-size: 45px;
+    color: #fff;
+    font-family: futura-condensedmedium;
+}
+
+.lightrow h1 {
+    font-size: 45px;
+    font-family: futura-condensedmedium
+}
+
+h2 {
+    font-size: 17px;
 }

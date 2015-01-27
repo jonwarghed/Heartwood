@@ -19,7 +19,7 @@ ul.nav-tabs li a {
     padding-left: 16px;
     padding-bottom: 18px;
     border-radius: 0;
-    background: #E77A12;
+    background-color: rgba(231,122,18,0.8);
     color: #fff;
 }
 
@@ -44,7 +44,8 @@ ul.nav-tabs.affix {
 }
 
 .greenrow {
-    height: 80px;
+    color:#fff;
+    height: 100px;
   background : -moz-linear-gradient(50% 0.22% -90deg,rgba(0, 93, 55, 1) 0%,rgba(0, 71, 32, 1) 35.79%,rgba(0, 57, 18, 1) 70.67%,rgba(0, 52, 13, 1) 100%);
   background : -webkit-linear-gradient(-90deg, rgba(0, 93, 55, 1) 0%, rgba(0, 71, 32, 1) 35.79%, rgba(0, 57, 18, 1) 70.67%, rgba(0, 52, 13, 1) 100%);
   background : -webkit-gradient(linear,50% 0.22% ,50% 99.76% ,color-stop(0,rgba(0, 93, 55, 1) ),color-stop(0.3579,rgba(0, 71, 32, 1) ),color-stop(0.7067,rgba(0, 57, 18, 1) ),color-stop(1,rgba(0, 52, 13, 1) ));
@@ -53,6 +54,10 @@ ul.nav-tabs.affix {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#005D37', endColorstr='#00340D' ,GradientType=0)";
   background : linear-gradient(180deg, rgba(0, 93, 55, 1) 0%, rgba(0, 71, 32, 1) 35.79%, rgba(0, 57, 18, 1) 70.67%, rgba(0, 52, 13, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#005D37',endColorstr='#00340D' , GradientType=0);
+}
+
+.sponsor img{
+    margin: 5px;
 }
 
 
@@ -75,6 +80,15 @@ ul.nav-tabs.affix {
     color:#2B2B2B;
 }
 
+.greenrow a{
+    color: #fff;
+}
+
+.greenrow a:hover{
+    color:#E77A12;
+    text-decoration: none;
+}
+
 .artists {
     margin-bottom: 10px;
 }
@@ -87,15 +101,6 @@ ul.nav-tabs.affix {
     color: #F3A500;
 }
 
-.darkrow span.timer {
-    font-size: 50px;
-}
-
-.darkrow span.date {
-    font-size: 35px;
-    color: #F3A500;
-    font-family: futura-condensedmedium;
-}
 
 .darkrow {
     background-color: #2B2B2B;
@@ -106,6 +111,7 @@ ul.nav-tabs.affix {
         font-family: futura-condensedmedium;
         font-size: 20px;
 }
+
 
 img {
     margin-top: 20px;
@@ -134,5 +140,14 @@ p {
 }
 
 h2 {
-    font-size: 17px;
+    font-size: 21px;
+    color:#2B2B2B;
+    font-family: futura-condensedmedium;
+}
+
+h3 {
+    font-size: 26px;
+    color: #fff;
+    font-family: futura-condensedmedium;
+    text-align: center;
 }

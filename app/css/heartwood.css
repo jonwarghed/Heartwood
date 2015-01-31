@@ -101,6 +101,10 @@ ul.nav-tabs.affix {
     color: #F3A500;
 }
 
+.dot:before {
+    content: "\2022";
+    font-size: 1em;
+}
 
 .darkrow {
     background-color: #2B2B2B;
@@ -128,15 +132,20 @@ p {
     text-justify: inter-word;
 }
 
-.darkrow h1 {
-    font-size: 45px;
-    color: #fff;
+h1,h2,h3 {
     font-family: futura-condensedmedium;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.darkrow h1 {
+    color: #fff;
 }
 
 .lightrow h1 {
     font-size: 45px;
-    font-family: futura-condensedmedium
 }
 
 h2 {

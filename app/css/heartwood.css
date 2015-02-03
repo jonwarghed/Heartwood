@@ -101,10 +101,10 @@ ul.nav-tabs.affix {
     color: #F3A500;
 }
 
-/* .dot:before {
+.dot:before {
     content: "\2022";
-    font-size: 1em; */
-}
+    font-size: 1em; 
+} 
 
 .darkrow {
     background-color: #2B2B2B;
@@ -113,7 +113,7 @@ ul.nav-tabs.affix {
 
 .darkrow span.artists{
         font-family: futura-condensedmedium;
-        font-size: 20px;
+        font-size: 25px;
 }
 
 

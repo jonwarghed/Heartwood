@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Heartwood</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/flipclock.css">
     <link href="css/heartwood.css" rel="stylesheet">
@@ -16,12 +16,13 @@
 <script src="js/flipclock.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/heartwood.js"></script>
+<script src="js/jquery.fittext.js"></script>
 
 <div class="container-fluid">
     <div class="row">
         <nav class="col-xs-1 col-lg-2" id="myScrollspy">
             <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="-100">
-                <li class="active"><a href="#section-1">LINE-UP</a></li>
+                <li class="active"><a href="#section-1">LINE-UP / TICKETS</a></li>
                 <li><a href="#section-2">ABOUT US</a></li>
                 <li><a href="#section-3">GETTING HERE</a></li>
                 <li><a href="#section-4">CHARITY</a></li>
@@ -35,47 +36,121 @@
         </div>
 
         <div class="row">
+                    <div class="col-lg-offset-3 col-xs-12 col-sm-12 col-md-12 col-lg-12 clock">
+                     <div class="your-clock"></div>
+                    </div>
 
             <div class="col-xs-3 col-md-2"></div>
             <div class="col-xs-8 artists">
 
-             <span class="artists">DAFT PUNK<span class="dot"></span>X JAPAN<span class="dot"></span>DIR EN GREY<span
-                     class="dot"></span>
-             
-             NINE INCH NAILS<span class="dot"></span>RÖYKSOPP<span class="dot"></span>KRAFTWERK<span
-                         class="dot"></span>
-             
-             MUCC<span class="dot"></span>DIE ANTWOORD<span class="dot"></span>INFECTED MUSHROOM<span
-                         class="dot"></span>APHEX TWIN<span class="dot"></span>
-
-             RAMMSTEIN<span class="dot"></span>FIRST AID KIT<span class="dot"></span>BABYMETAL<span
-                         class="dot"></span>VAMPS<span class="dot"></span>
-
-             THE PRETTY RECKLESS<span class="dot"></span>BJÖRK<span class="dot"></span>VAN HALEN<span
-                         class="dot"></span>REGINA SPEKTOR<span class="dot"></span>
-
-             WEEZER<span class="dot"></span>ONE OK ROCK<span class="dot"></span>THE GAZETTE<span class="dot"></span>IAMX<span
-                         class="dot"></span>DEATH CAB FOR CUTIE<span class="dot"></span>
-
-             COVENANT<span class="dot"></span>MAYDAY<span class="dot"></span>SOILWORK<span class="dot"></span>CROSSFAITH<span
-                         class="dot"></span>ONLY REAL<span class="dot"></span>ST. VINCENT<span class="dot"></span>BANKS<span
-                         class="dot"></span>
-
-             ARTHUR BEATRICE<span class="dot"></span>GODSMACK<span class="dot"></span>BADSUNS<span
-                         class="dot"></span>GRAFFITI6<span class="dot"></span>SHOUT OUT LOUDS<span
-                         class="dot"></span>BROKEN BELLS<span class="dot"></span>
-
-             THE FLATMATES<span class="dot"></span>THE POSTAL SERVICE<span class="dot"></span>THERE FOR TOMORROW<span
-                         class="dot"></span>DAYSHELL<span class="dot"></span>ANTISERUM<span class="dot"></span>
-
-             K.FLAY<span class="dot"></span>TEENAGE BOTTLEROCKET<span class="dot"></span>EVERY TIME I DIE<span
-                         class="dot"></span>STRAY FROM THE PATH<span class="dot"></span>BLUES PILLS<span
-                         class="dot"></span>WHITE ARROWS</span>
+             <p id="firstline" style="width:100%">
+            DAFT PUNK<span class="dot"></span>X JAPAN<span class="dot"></span>DIR EN GREY
+            </p>
+			<p id="secondline">
+            NINE INCH NAILS
+                <span class="dot"></span>
+            RÖYKSOPP
+                <span class="dot"></span>
+            KRAFTWERK
+            </p>
+            <p id="thirdline">
+            MUCC
+                <span class="dot"></span>
+            DIE ANTWOORD
+                <span class="dot"></span>
+            INFECTED MUSHROOM
+            </p>
+            <p id="fourthline">
+            APHEX TWIN
+                <span class="dot"></span>
+            RAMMSTEIN
+                <span class="dot"></span>
+            FIRST AID KIT
+                <span class="dot"></span>
+            BABYMETAL
+            </p>
+            <p id="fifthline">
+            VAMPS
+                <span class="dot"></span>
+            THE PRETTY RECKLESS
+                <span class="dot"></span>
+            BJÖRK
+                <span class="dot"></span>
+            VAN HALEN
+                <span class="dot"></span>
+            REGINA SPEKTOR
+            </p>
+            <p id="sixthline">
+            WEEZER
+                <span class="dot"></span>
+            ONE OK ROCK
+                <span class="dot"></span>
+            THE GAZETTE
+                <span class="dot"></span>
+            IAMX
+                <span class="dot"></span>
+            DEATH CAP FOR CUTIE
+            </p>
+            <p id="seventhline">
+            COVENANT
+                 <span class="dot"></span>
+            MAYDAY
+                <span class="dot"></span>
+            SOILWORK
+                <span class="dot"></span>
+            CROSSFAITH
+                <span class="dot"></span>
+            ONLY REAL
+                <span class="dot"></span>
+            ST. VINCENT
+                <span class="dot"></span>
+            BANKS
+            </p>
+            <p id="eighthline">
+            ARTHUR BEATRICE
+                <span class="dot"></span>
+            GODSMACK
+                <span class="dot"></span>
+            BADSUNS
+                <span class="dot"></span>
+            GRAFFITI6
+                <span class="dot"></span>
+            SHOUT OUT LOUDS
+                <span class="dot"></span>
+            BROKEN BELLS
+           </p>
+           <p id="ninthline">
+            THE FLATMATES
+                <span class="dot"></span>
+            THE POSTAL SERVICE
+                <span class="dot"></span>
+            THERE FOR TOMORROW
+                <span class="dot"></span>
+            DAYSHELL
+                <span class="dot"></span>
+            ANTISERUM
+                <span class="dot"></span>
+            K.FLAY
+            </p>
+            <p id="tenthline">
+            TEENAGE BOTTLEROCKET
+                <span class="dot"></span>
+            EVERY TIME I DIE
+                <span class="dot"></span>
+            STRAY FROM THE PATH
+                <span class="dot"></span>
+            BLUES PILLS
+                <span class="dot"></span>
+            WHITE ARROWS
+            </p>
             </div>
 
-                   <div class="col-xs-1 col-lg-6 col-lg-offset-3">
-                     <div class="your-clock"></div>
-                    </div>
+                <h1 class="col-xs-4  col-xs-offset-5 col-md-offset-4 centered">
+
+                        <p id="ticket"><a href="index.html">BUY YOUR TICKETS HERE!</a></h1></p>
+                
+
+
 
         </div>
     </div>
@@ -199,8 +274,8 @@
                     non sapien in, mollis ornare augue.</p>
             </div>
         </div>
-        <div class="col-xs-8 col-xs-offset-3 col-md-offset-2"><img class="img-responsive center-block" id="charity-tree"
-                                                                   src="assets/tree.jpg"></div>
+        <!-- <div class="col-xs-8 col-xs-offset-3 col-md-offset-2"><img class="img-responsive center-block" id="charity-tree"
+                                                                   src="assets/tree.jpg"></div> -->
         <img src="assets/grass.png" id="flowers" class="img-responsive col-xs-12 nopadding">
     </div>
 

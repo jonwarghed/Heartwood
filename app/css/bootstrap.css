@@ -1398,11 +1398,13 @@ pre code {
     width: 750px;
   }
 }
+/*
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
+*/
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
@@ -3701,9 +3703,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555;
-  cursor: default;
+  /*cursor: default;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #ddd;*/
   border-bottom-color: transparent;
 }
 .nav-tabs.nav-justified {
@@ -6330,3 +6332,94 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+
+
+@media only screen and (min-width : 320px) {
+   .clock .your-clock{
+	width:630px;
+	margin-left: 25%;
+}
+.clock .flip-clock-wrapper ul{
+	width:50px;
+}
+.clock .flip-clock-wrapper ul li a div div.inn{
+	font-size:40px;	
+}
+}
+ 
+/* XSサイズ : Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+ 	.clock .your-clock{
+	width:630px;
+	margin-left: 25%;
+}
+.clock .flip-clock-wrapper ul{
+	width:50px;
+}
+.clock .flip-clock-wrapper ul li a div div.inn{
+	font-size:40px;	
+}
+}
+ 
+/* Sサイズ、タブレット : Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+ 
+}
+ 
+/* Mサイズ、デスクトップ : Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+ .clock .your-clock{
+	width:700px;
+	margin-left:23%;
+}
+.clock .flip-clock-wrapper ul{
+	width:50px;
+}
+.clock .flip-clock-wrapper ul li a div div.inn{
+	font-size:60px;	
+}
+}
+ 
+/* Lサイズ、ワイドスクリーン : Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .clock .your-clock{
+	width:800px;
+	margin-left: -5%;
+}
+.clock .flip-clock-wrapper ul{
+	width:70px;
+}
+.clock .flip-clock-wrapper ul li a div div.inn{
+	font-size:80px;	
+}
+}
+ 
+ 
+/*==========  非モバイル・ファーストの場合  ==========*/
+ 
+/* Lサイズ、ワイドスクリーン : Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+ 
+}
+ 
+/* Mサイズ、デスクトップ : Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+ 
+}
+ 
+/* Sサイズ、タブレット : Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+ 
+}
+ 
+/* XSサイズ : Extra Small Devices, Phones */  
+@media only screen and (max-width : 480px) {
+ 
+}
+ 
+/* カスタム, iPhone Retinaディスプレイ */ 
+@media only screen and (max-width : 320px) {
+    
+}

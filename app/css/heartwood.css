@@ -1,4 +1,4 @@
-ul.nav-tabs {
+hoverul.nav-tabs {
     margin-top: 20px;
     border-radius: 4px;
     border: 0 !important;
@@ -102,6 +102,17 @@ ul.nav-tabs.affix {
     text-decoration: none;
 }
 
+.row a{
+    color: #fff;
+}
+
+.row a:hover{
+    color:#E77A12;
+    text-decoration: none;
+}
+
+
+
 #ticket a{
     color:#fff;
     text-decoration: none;
@@ -196,3 +207,4 @@ h3 {
 	line-height:1em;
 	width:100%;
 }
+

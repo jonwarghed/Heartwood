@@ -49,7 +49,8 @@ ul.nav-tabs.affix {
 
 
 .darkrow {
-    background: #222222;
+    background-color: #2B2B2B;
+    text-align: justify;
 }
 
 .lightrow {
@@ -145,11 +146,6 @@ ul.nav-tabs.affix {
 .dot:before {
     content: "\2022";
     font-size: 1em;
-} 
-
-.darkrow {
-    background-color: #2B2B2B;
-    text-align: justify;
 }
 
 .darkrow .artists p{

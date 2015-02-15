@@ -19,16 +19,33 @@
 <script src="js/jquery.fittext.js"></script>
 
 <div class="container-fluid">
-    <div class="row">
-        <nav class="col-xs-1 col-lg-2" id="myScrollspy">
-            <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="-100">
-                <li class="active"><a href="#section-1">LINE-UP / TICKETS</a></li>
-                <li><a href="#section-2">ABOUT US</a></li>
-                <li><a href="#section-3">GETTING HERE</a></li>
-                <li><a href="#section-4">CHARITY</a></li>
-            </ul>
+
+
+
+
+
+        <div class="row">
+            <div class="navbar-header" style="background-color: #2B2B2B;">
+                <!-- This one is invisible for some reason  bootstrap likes to give it no color at all -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navigate">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+        <nav class="collapse navbar-collapse " id="myScrollspy" id="orangenav">
+                <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="-100">
+                            <li class="active"><a href="#section-1">LINE-UP / TICKETS</a></li>
+                            <li><a href="#section-2">ABOUT US</a></li>
+                            <li><a href="#section-3">GETTING HERE</a></li>
+                            <li><a href="#section-4">CHARITY</a></li>
+                </ul>
         </nav>
-    </div>
+        </div>
+
+
     <div class="row darkrow" id="section-1">
         <div class="row">
             <img class="col-xs-8 col-lg-4 col-md-6 col-lg-offset-4 col-md-offset-3 col-xs-offset-3" id="logo"

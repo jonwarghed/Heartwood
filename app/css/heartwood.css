@@ -113,7 +113,7 @@ ul.nav-tabs.affix {
 
 
 
-#ticket a{
+.ticket a{
     color:#fff;
     text-decoration: none;
     background:#E77A12;
@@ -121,7 +121,7 @@ ul.nav-tabs.affix {
     padding-right: 10px;
 }
 
-#ticket a:hover{
+.ticket a:hover{
     color:#2B2B2B;
     text-decoration: none;
     background:#E77A12;

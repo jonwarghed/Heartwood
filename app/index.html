@@ -20,8 +20,32 @@
 
 <div class="container-fluid">
 
+    <div class="row darkrow">
+    <nav class="navbar navbar-inverse visible-xs">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Heartwood</a>
+            </div>
 
-
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#section-1">LINE-UP / TICKETS <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#section-2">ABOUT US</a></li>
+                    <li><a href="#section-3">GETTING HERE</a></li>
+                    <li><a href="#section-4">CHARITY</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+        </nav>
+    </div>
 
 
         <div class="row">
@@ -37,7 +61,7 @@
             </div>
         <nav class="collapse navbar-collapse " id="myScrollspy" id="orangenav">
                 <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="-100">
-                            <li class="active"><a href="#section-1">LINE-UP / TICKETS</a></li>
+                            <li class="active"><a href="#section-1">LINE-UP / TICKETS <span class="sr-only">(current)</span></a></li>
                             <li><a href="#section-2">ABOUT US</a></li>
                             <li><a href="#section-3">GETTING HERE</a></li>
                             <li><a href="#section-4">CHARITY</a></li>
@@ -48,17 +72,17 @@
 
     <div class="row darkrow" id="section-1">
         <div class="row">
-            <img class="col-xs-8 col-lg-4 col-md-6 col-lg-offset-4 col-md-offset-3 col-xs-offset-3" id="logo"
+            <img class="col-xs-12 col-sm-8 col-lg-4 col-md-6 col-lg-offset-4 col-md-offset-3 col-sm-offset-3" id="logo"
                  src="assets/heartwood.png" alt="Heartwood rock and electro festival 2015"/>
         </div>
 
         <div class="row">
-            <div class="col-lg-offset-3 col-xs-12 col-sm-12 col-md-12 col-lg-12 clock">
+            <div class="col-xs-offset-0 col-sm-offset-3 col-xs-12 col-sm-12 col-md-12 col-lg-12 clock">
                 <div class="your-clock"></div>
             </div>
 
-            <div class="col-xs-3 col-md-2"></div>
-            <div class="col-xs-8 artists">
+            <div class="col-sm-3 col-md-2 hidden-xs"></div>
+            <div class="col-xs-12 col-sm-8 artists">
 
                 <p id="firstline">
                     DAFT PUNK<span class="dot"></span>X JAPAN<span class="dot"></span>DIR EN GREY
@@ -171,7 +195,7 @@
                 </p>
             </div>
 
-            <h1 class="col-xs-8 col-xs-offset-3 col-md-offset-2 centered ticket">
+            <h1 class="col-xs-12 col-sm-8 col-sm-offset-3 col-md-offset-2 centered ticket">
                 <a href="index.html">BUY YOUR TICKETS HERE!</a></h1>
 
 
@@ -179,25 +203,25 @@
         </div>
     </div>
     <div class="row lightrow" id="section-2">
-        <div class="row"><h1 class="col-xs-4  col-xs-offset-5 col-md-offset-4 centered">About us</h1></div>
+        <div class="row"><h1 class="col-xs-12 col-sm-4  col-sm-offset-5 col-md-offset-4 centered">About us</h1></div>
         <div class="row">
-            <div class="col-xs-3 col-md-2"></div>
-            <div class="col-xs-8">
+            <div class="col-sm-3 col-md-2 hidden-xs"></div>
+            <div class="col-sm-8 col-xs-12">
                 <p>Heartwood Rock & Electro festival is located at Tsugaiken Kogen Ski Resort in Nagano. High up in the mountains, away from the fuzz of daily life Heartwood festival is the perfect place to take time off, listen to good music and making new friend!</p>
 
                 <p>Heartwood festival is a "green festival" and sustainability is very important to us. Our motto is "Love music, love green" and our goal is to create a enviromental friendly festival.
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-0 col-md-2"></div>
-            <div class="col-xs-8 col-md-2 col-xs-offset-3 col-md-offset-0">
+            <div class="hidden-xs col-sm-2"></div>
+            <div class="col-xs-12 col-sm-8 col-md-2 col-xs-offset-0 col-sm-offset-3 col-md-offset-0">
                 <img id="aboutus-energy" src="assets/energy.png" class="img-responsive center-block">
 
                 <h2 class="centered">Energy saving</h2>
 
                 <p>We have solar panels installed on the stageroofs. We’re committed to offsetting the power generated at the Heartwood festival.</p>
             </div>
-            <div class="col-xs-8 col-md-2 col-xs-offset-3 col-md-offset-0">
+            <div class="col-xs-12 col-sm-8 col-md-2 col-xs-offset-0 col-sm-offset-3 col-md-offset-0">
                 <img id="aboutus-bottle" src="assets/plastic_bottle.png" class="img-responsive center-block">
 
                 <h2 class="centered">No plastic bottles</h2>
@@ -205,14 +229,14 @@
                 <p>
                     We don't sell any drinks in plastic bottles, all of our cups, plates, and utensils are 100% compostable at Heartwood festival. If you buy our official tumbler you get a discount on drinks and free access to the water station during the whole festival.</p>
             </div>
-            <div class="col-xs-8 col-md-2 col-xs-offset-3 col-md-offset-0">
+            <div class="col-xs-12 col-sm-8 col-md-2 col-xs-offset-0 col-sm-offset-3 col-md-offset-0">
                 <img id="aboutus-recycle" src="assets/recycle.png" class="img-responsive center-block">
 
                 <h2 class="centered">Recycle station</h2>
 
                 <p>Help us recycle our garbage and collect points you can trade in for cool merchandise and food!</p>
             </div>
-            <div class="col-xs-8 col-md-2 col-xs-offset-3 col-md-offset-0">
+            <div class="col-xs-12 col-sm-8 col-md-2 col-xs-offset-0 col-sm-offset-3 col-md-offset-0">
                 <img id="aboutus-organice" src="assets/organic.png" class="img-responsive center-block">
 
                 <h2 class="centered">Organic food</h2>
@@ -222,17 +246,17 @@
         </div>
     </div>
     <div class="row darkrow" id="section-3">
-        <div class="row"><h1 class="col-xs-4  col-xs-offset-5 col-md-offset-4 centered">Getting here</h1></div>
+        <div class="row"><h1 class="col-xs-12 col-sm-4  col-sm-offset-5 col-md-offset-4 centered">Getting here</h1></div>
         <div class="row">
-            <div class="col-xs-3 col-md-2"></div>
-            <div class="col-xs-8">
+            <div class="col-sm-3 col-md-2 hidden-xs"></div>
+            <div class="col-xs-12 col-sm-8">
                 <p>We are located in Tsugaiken Kogen ski resort close to the Hakuba Valley in Nagano. You can get here by bus from Nagano or Hakuba. We also offer travel packages from several cities that takes you directly to the festiaval.</p>
 
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-3 col-md-2"></div>
-            <div class="col-xs-8 container">
+            <div class="col-sm-3 col-md-2 hidden-xs"></div>
+            <div class="col-xs-12 col-sm-8 container">
                 <div class="col-xs-12 col-md-4">
                     <img id="getting-parking" src="assets/parking.png" class="img-responsive center-block img-circle">
 
@@ -259,10 +283,10 @@
         </div>
     </div>
     <div class="row lightrow nopadding" id="section-4">
-        <div class="row"><h1 class="col-xs-4 col-xs-offset-5 col-md-offset-4 centered">Charity</h1></div>
+        <div class="row"><h1 class="col-xs-12 col-sm-4  col-sm-offset-5 col-md-offset-4 centered">Charity</h1></div>
         <div class="row">
-            <div class="col-xs-3 col-md-2"></div>
-            <div class="col-xs-8">
+            <div class="col-sm-3 col-md-2 hidden-xs"></div>
+            <div class="col-xs-12 col-sm-8">
                 <p>Global warming is the result of excess greenhouse gases, created by burning fossil fuels and destroying tropical rainforests. Trees conserves energy, provides oxygen and saves water. Planting a tree will ensure forests and clean water persist for future generations which is why Heartwood plants a tree in needed areas around the world for every 10th ticket sold!</p>
             </div>
         </div>

@@ -133,6 +133,7 @@ ul.nav-tabs.affix {
 .artists {
     margin-bottom: 10px;
     margin-top: 10px;
+    text-align: center; 
 }
 
 .darkrow, .lightrow {
@@ -151,6 +152,7 @@ ul.nav-tabs.affix {
 .darkrow .artists p{
         font-family: futura-condensedextrabold;
         font-size: 25px;
+        text-align: center;
 }
 
 

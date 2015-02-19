@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head lang="jp">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heartwood</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flipclock.css">
+    <link href="css/heartwood.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target="#myScrollspy">
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/flipclock.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/heartwood.js"></script>
+<script src="js/jquery.fittext.js"></script>
+
+<div class="container-fluid">
+
+    <div class="row darkrow">
+    <nav class="navbar navbar-inverse visible-xs">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Heartwood</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#section-1">LINE-UP / TICKETS <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#section-2">ABOUT US</a></li>
+                    <li><a href="#section-3">GETTING HERE</a></li>
+                    <li><a href="#section-4">CHARITY</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+
+
+        <div class="row">
+            <div class="navbar-header" style="background-color: #2B2B2B;">
+                <!-- This one is invisible for some reason  bootstrap likes to give it no color at all -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navigate">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+        <nav class="collapse navbar-collapse " id="myScrollspy" id="orangenav">
+                <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="-100">
+                            <li class="active"><a href="#section-1">LINE-UP / TICKETS <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#section-2">ABOUT US</a></li>
+                            <li><a href="#section-3">GETTING HERE</a></li>
+                            <li><a href="#section-4">CHARITY</a></li>
+                </ul>
+        </nav>
+        </div>
+
+
+    <div class="row darkrow" id="section-1">
+        <div class="row">
+            <img class="col-xs-12 col-sm-8 col-lg-4 col-md-6 col-lg-offset-4 col-md-offset-3 col-sm-offset-3" id="logo"
+                 src="assets/heartwood.png" alt="Heartwood rock and electro festival 2015"/>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-offset-0 col-sm-offset-3 col-xs-12 col-sm-12 col-md-12 col-lg-12 clock">
+                <div class="your-clock"></div>
+            </div>
+
+            <div class="col-sm-3 col-md-2 hidden-xs"></div>
+            <div class="col-xs-12 col-sm-8 artists">
+
+                <p id="firstline">
+                    DAFT PUNK<span class="dot"></span>X JAPAN<span class="dot"></span>DIR EN GREY
+                </p>
+
+                <p id="secondline">
+                    NINE INCH NAILS
+                    <span class="dot"></span>
+                    RÖYKSOPP
+                    <span class="dot"></span>
+                    KRAFTWERK
+                </p>
+
+                <p id="thirdline">
+                    MUCC
+                    <span class="dot"></span>
+                    DIE ANTWOORD
+                    <span class="dot"></span>
+                    INFECTED MUSHROOM
+                </p>
+
+                <p id="fourthline">
+                    APHEX TWIN
+                    <span class="dot"></span>
+                    RAMMSTEIN
+                    <span class="dot"></span>
+                    FIRST AID KIT
+                    <span class="dot"></span>
+                    BABYMETAL
+                </p>
+
+                <p id="fifthline">
+                    VAMPS
+                    <span class="dot"></span>
+                    THE PRETTY RECKLESS
+                    <span class="dot"></span>
+                    BJÖRK
+                    <span class="dot"></span>
+                    VAN HALEN
+                    <span class="dot"></span>
+                    REGINA SPEKTOR
+                </p>
+
+                <p id="sixthline">
+                    WEEZER
+                    <span class="dot"></span>
+                    ONE OK ROCK
+                    <span class="dot"></span>
+                    THE GAZETTE
+                    <span class="dot"></span>
+                    IAMX
+                    <span class="dot"></span>
+                    DEATH CAP FOR CUTIE
+                </p>
+
+                <p id="seventhline">
+                    COVENANT
+                    <span class="dot"></span>
+                    MAYDAY
+                    <span class="dot"></span>
+                    SOILWORK
+                    <span class="dot"></span>
+                    CROSSFAITH
+                    <span class="dot"></span>
+                    ONLY REAL
+                    <span class="dot"></span>
+                    ST. VINCENT
+                    <span class="dot"></span>
+                    BANKS
+                </p>
+
+                <p id="eighthline">
+                    ARTHUR BEATRICE
+                    <span class="dot"></span>
+                    GODSMACK
+                    <span class="dot"></span>
+                    BADSUNS
+                    <span class="dot"></span>
+                    GRAFFITI6
+                    <span class="dot"></span>
+                    SHOUT OUT LOUDS
+                    <span class="dot"></span>
+                    BROKEN BELLS
+                </p>
+
+                <p id="ninthline">
+                    THE FLATMATES
+                    <span class="dot"></span>
+                    THE POSTAL SERVICE
+                    <span class="dot"></span>
+                    THERE FOR TOMORROW
+                    <span class="dot"></span>
+                    DAYSHELL
+                    <span class="dot"></span>
+                    ANTISERUM
+                    <span class="dot"></span>
+                    K.FLAY
+                </p>
+
+                <p id="tenthline">
+                    TEENAGE BOTTLEROCKET
+                    <span class="dot"></span>
+                    EVERY TIME I DIE
+                    <span class="dot"></span>
+                    STRAY FROM THE PATH
+                    <span class="dot"></span>
+                    BLUES PILLS
+                    <span class="dot"></span>
+                    WHITE ARROWS
+                </p>
+            </div>
+
+            <h1 class="col-xs-12 col-sm-8 col-sm-offset-3 col-md-offset-2 centered ticket">
+                <a href="index.html">BUY YOUR TICKETS HERE!</a></h1>
+
+
+
+        </div>
+    </div>
+    <div class="row lightrow" id="section-2">
+        <div class="row"><h1 class="col-xs-12 col-sm-4  col-sm-offset-5 col-md-offset-4 centered">About us</h1></div>
+        <div class="row">
+            <div class="col-sm-3 col-md-2 hidden-xs"></div>
+            <div class="col-sm-8 col-xs-12">
+                <p>Heartwoodフェスティバルは長野県の栂池高原スキー場でやります。都会の喧騒から逃れて、音楽を聴いたり、新しい友達を作ったり、楽しい時間を過ごしたりできます。</p>
+
+                <p>Heartwoodは「グリーンフェスティバル」です。「Love music, love green」をモットーにして、自然を守って環境に優しいフェスティバルを営業することを大切にします。</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="hidden-xs col-sm-2"></div>
+            <div class="col-xs-12 col-sm-8 col-md-2 col-xs-offset-0 col-sm-offset-3 col-md-offset-0">
+                <img id="aboutus-energy" src="assets/energy.png" class="img-responsive center-block">
+
+                <h2 class="centered">Energy saving</h2>
+
+                <p>ステージの屋根にソーラパネルが取り付けられています。イベントにかかる電力を抑えています。</p>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-2 col-xs-offset-0 col-sm-offset-3 col-md-offset-0">
+                <img id="aboutus-bottle" src="assets/plastic_bottle.png" class="img-responsive center-block">
+
+                <h2 class="centered">No plastic bottles</h2>
+
+                <p>ペットボトルの飲み物は売らないことにしました。使用しているカップ、皿、食器の全部をたい肥にできます。ハートウッドのオフィシャルタンブラーを買ったら飲み物が割引されるし、無料でウオーターステーションが利用できます。</p>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-2 col-xs-offset-0 col-sm-offset-3 col-md-offset-0">
+                <img id="aboutus-recycle" src="assets/recycle.png" class="img-responsive center-block">
+
+                <h2 class="centered">Recycle station</h2>
+
+                <p>Help us recycle our garbage and collect points you can trade in for cool merchandise and food!</p>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-2 col-xs-offset-0 col-sm-offset-3 col-md-offset-0">
+                <img id="aboutus-organice" src="assets/organic.png" class="img-responsive center-block">
+
+                <h2 class="centered">Organic food</h2>
+
+                <p>We're doing our best to keep the food at Heartwood Fetival organic and healthy. Together with Canadian Farm and Organic Farm 88 we will be selling seasonal food, fruits & vegetables during the festival weekend.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row darkrow" id="section-3">
+        <div class="row"><h1 class="col-xs-12 col-sm-4  col-sm-offset-5 col-md-offset-4 centered">Getting here</h1></div>
+        <div class="row">
+            <div class="col-sm-3 col-md-2 hidden-xs"></div>
+            <div class="col-xs-12 col-sm-8">
+                <p>栂池高原スキー場は長野県の白馬村の近くにあります。長野か白馬からバスで行けます。全国の色々な都会から電車とバスの旅行プランも提供します。</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-md-2 hidden-xs"></div>
+            <div class="col-xs-12 col-sm-8 container">
+                <div class="col-xs-12 col-md-4">
+                    <img id="getting-parking" src="assets/parking.png" class="img-responsive center-block img-circle">
+
+                    <h3>Parking</h3>
+
+                    <p>We have to big parking areas located close to the camping and festival area. The parking is free for everyone with a ticket to the festival! A special parking for caravans are also available at a cheap price, which you can book along with your festival ticket.</p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <img id="getting-shuttlebus" src="assets/bus.png" class="img-responsive center-block img-circle">
+
+                    <h3>Shuttlebus</h3>
+
+                    <p>We offer free shuttlebuses from the camping area into Hakuba valley every half hour. In Hakuba Valley you can find several shops and restuarant as well as hotels.</p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <img id="getting-train" src="assets/train.png" class="img-responsive center-block img-circle">
+
+                    <h3>Train</h3>
+
+                    <p>We offer train + bus packages from several cities around Japan. The package includes Shinkansen to Nagano Station and a bus from Nagano Station all the way to the camping area. You can buy the travel package along with your ticket, for more information about which cities are included in the package click <a href="index.html">here</a>.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row lightrow nopadding" id="section-4">
+        <div class="row"><h1 class="col-xs-12 col-sm-4  col-sm-offset-5 col-md-offset-4 centered">Charity</h1></div>
+        <div class="row">
+            <div class="col-sm-3 col-md-2 hidden-xs"></div>
+            <div class="col-xs-12 col-sm-8">
+                <p>Global warming is the result of excess greenhouse gases, created by burning fossil fuels and destroying tropical rainforests. Trees conserves energy, provides oxygen and saves water. Planting a tree will ensure forests and clean water persist for future generations which is why Heartwood plants a tree in needed areas around the world for every 10th ticket sold!</p>
+            </div>
+        </div>
+        <!-- <div class="col-xs-8 col-xs-offset-3 col-md-offset-2"><img class="img-responsive center-block" id="charity-tree"
+                                                                   src="assets/tree.jpg"></div> -->
+        <img src="assets/grass.png" id="flowers" class="img-responsive col-xs-12 nopadding">
+    </div>
+
+    <div class="row greenrow">
+
+
+        <div class="sponsor centered">
+            <a href="http://www.evian.co.jp/" target="_blank"><img src="assets/evian.jpg" id="evian" alt="evian"></a>
+            <a href="http://www.hmv.co.jp/en/" target="_blank"><img src="assets/hmv.jpg" id="HMV" alt="HMV"></a>
+            <a href="http://pocarisweat.jp/" target="_blank"><img src="assets/pocarisweat.jpg" id="Pocari Sweat"
+                                                                  alt="Pocari Sweat"></a>
+            <a href="http://www.zojirushi.co.jp/" target="_blank"><img src="assets/sojirushi.jpg" id="Zojirushi"
+                                                                       alt="Zojirushi"></a>
+            <a href="http://tower.jp/" target="_blank"><img src="assets/towerrecords.jpg" id="Tower Records"
+                                                            alt="Tower Records"></a>
+            <a href="http://www.tvn.com.au/" target="_blank"><img src="assets/tvn.jpg" id="TVN" alt="TVN"></a>
+            <a href="http://www.wowow.co.jp/" target="_blank"><img src="assets/wowow.jpg" id="WOWOW" alt="WOWOW"></a>
+            <a href="http://www.audio-technica.co.jp/" target="_blank"><img src="assets/audiotechnica.jpg"
+                                                                            id="Audio Technica"
+                                                                            alt="Audio Technica"></a>
+        </div>
+        <br>
+
+        <div class="col-xs-12 centered">
+            <span>©2015 Heartwood Rock & Electro Festival | <a href="privacy.html" target="_blank">Privacy Policy</a> | <a
+                    href="tou.html" target="_blank">Terms of Use</a> | <a href="contact.html" target="_blank">Contact
+                Us</a><br>
+            </span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -15,14 +15,14 @@ $(document).ready(function()
 })
 $(function(){
 	var size = 1.6;
-	$("#firstline").fitText(size);
-	$("#secondline").fitText(size*1.28);
-	$("#thirdline").fitText(size*1.38);
-	$("#fourthline").fitText(size*1.65);
-	$("#fifthline").fitText(size*2.11);
-	$("#sixthline").fitText(size*2.06);
-	$("#seventhline").fitText(size*2.5);
-	$("#eighthline").fitText(size*2.7);
-	$("#ninthline").fitText(size*2.85);
-	$("#tenthline").fitText(size*2.88);
+	$("#firstline").fitText(size*0.98);
+	$("#secondline").fitText(size*1.33);
+	$("#thirdline").fitText(size*1.49);
+	$("#fourthline").fitText(size*1.85);
+	$("#fifthline").fitText(size*2.5);
+	$("#sixthline").fitText(size*2.5);
+	$("#seventhline").fitText(size*3.1);
+	$("#eighthline").fitText(size*3.5);
+	$("#ninthline").fitText(size*3.8);
+	$("#tenthline").fitText(size*4);
 });

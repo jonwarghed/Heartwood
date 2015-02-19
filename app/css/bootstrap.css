@@ -1728,7 +1728,7 @@ pre code {
     margin-left: 33.33333333%;
   }
   .col-sm-offset-3 {
-    margin-left: 25%;
+    //margin-left: 25%;
   }
   .col-sm-offset-2 {
     margin-left: 16.66666667%;
@@ -6340,6 +6340,7 @@ button.close {
    .clock .your-clock{
 	width:630px;
 	margin-left: 25%;
+  margin:0 auto;
 }
 .clock .flip-clock-wrapper ul{
 	width:50px;
@@ -6354,6 +6355,7 @@ button.close {
  	.clock .your-clock{
 	width:630px;
 	margin-left: 25%;
+  margin:0 auto;
 }
 .clock .flip-clock-wrapper ul{
 	width:50px;
@@ -6373,6 +6375,7 @@ button.close {
  .clock .your-clock{
 	width:700px;
 	margin-left:23%;
+  margin:0 auto;
 }
 .clock .flip-clock-wrapper ul{
 	width:50px;
@@ -6387,6 +6390,7 @@ button.close {
   .clock .your-clock{
 	width:800px;
 	margin-left: -5%;
+  margin: 0 auto;
 }
 .clock .flip-clock-wrapper ul{
 	width:70px;
